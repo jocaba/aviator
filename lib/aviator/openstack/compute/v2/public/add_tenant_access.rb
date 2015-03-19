@@ -1,6 +1,6 @@
 module Aviator
 
-  define_request :add_tenant_access, inherit: [:openstack, :common, :v3, :public, :base] do
+  define_request :add_tenant_access, inherit: [:openstack, :common, :v2, :public, :base] do
 
     meta :service, :compute
 
